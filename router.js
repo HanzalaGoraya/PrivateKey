@@ -1,5 +1,6 @@
-import express from "express";
-
+import express, { application } from "express";
+import dotenv from "dotenv";
+dotenv.config();
 const router = express.Router();
 
 // For demo: Secret API key (in real apps, use env vars and never expose secrets to frontend!)
